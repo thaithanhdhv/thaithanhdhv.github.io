@@ -1,0 +1,52 @@
+// colors
+$accentColor = #337ab7
+$textColor = #2c3e50
+$borderColor = #eaecef
+$codeBgColor = #282c34
+$arrowBgColor = #ccc
+$badgeTipColor = #42b983
+$badgeWarningColor = darken(#ffe564, 35%)
+$badgeErrorColor = #DA5961
+
+// layout
+$navbarHeight = 3.6rem
+$sidebarWidth = 20rem
+$contentWidth = 740px
+$homePageWidth = 960px
+
+// responsive breakpoints
+$MQNarrow = 959px
+$MQMobile = 719px
+$MQMobileNarrow = 419px
+
+.vuepress-blog-theme-content {
+  box-shadow: none !important;
+}
+.vuepress-toc {
+  left: 0;
+  right: auto;
+}
+
+.vuepress-toc .vuepress-toc-item a {
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: PT Serif, Serif;
+}
+
+@media (min-width: 1300px) {
+.vuepress-toc {
+  top: 200px;
+}
+}
+
+.header-wrapper .header-right-wrap .search-box input {
+  border-radius: 30px;
+}
+
+.header-wrapper .header-right-wrap .search-box input:hover {
+  box-shadow: none;
+}
+
+.ui-post-title a {
+  color: $accentColor !important;
+}
